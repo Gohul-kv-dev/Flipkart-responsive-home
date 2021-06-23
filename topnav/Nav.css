@@ -1,0 +1,149 @@
+.nav {
+    background: #2874f0;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav #search-here {
+    height: 36px;
+    outline: none;
+    border: none;
+    width: 80%;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.login {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 100%;
+    padding: 5px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    align-items: center;
+}
+.more, .cart {
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    color: #fff;
+}
+.login-menu {
+    display: none;
+}
+.login-nav:hover .login-menu {
+    display: flex;
+}
+.login-menu {
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+    position: absolute;
+    width: 200px; 
+    left: 15px;
+    z-index: 5;
+}
+.login-menu li {
+    padding: 10px;
+}
+.arrow {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 8px;
+}
+
+.login:hover .arrow {
+    transform: rotate(-135deg);
+    margin-bottom: -2px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-menu{
+    display: none;
+}
+.more-nav:hover .more-menu {
+    display: flex;
+}
+.more-menu {
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+    position: absolute;
+    width: 200px;
+    left: 15px;
+    z-index: 5;
+}
+.more-menu li {
+    padding: 10px;
+}
+.arrow {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 8px;
+}
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more:hover .arrow {
+    transform: rotate(-135deg);
+    margin-bottom: -2px;
+}
+.search-nav i {
+    position: absolute;
+    left: 75%;
+    top: 10px;
+}
+.cart-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-nav img{
+    margin-right: 5px;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+.col-sm-1.logo-nav {
+    padding: 0;
+}
+.logo-nav img {
+    width: 100%;
+}
