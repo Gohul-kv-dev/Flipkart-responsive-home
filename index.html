@@ -24,14 +24,67 @@
                 <input type="text" name="fa-search" id="search-here" placeholder="Search for products, brands and more">   
             </div>
             <div class="col-sm-1 col-2 col-xs-2 col-md-1 col-lg-1 login-nav">    <!--------Login------>
-                <div class="login"><span> Login</span><i class="arrow down"></i></div>
+                <div class="login"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Login
+                  </button><i class="arrow down"></i></div>
                 <ul class="login-menu">
                     <li>My profile</li>
                     <li>Orders</li>
                     <li>Wishlist</li>
                     <li>Rewards</li>
                 </ul>
-            </div>
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="first-column">
+                                <img src="image.png">
+                            </div>
+                            <div class="second-column">
+                            <div class="login-form">
+                                <form action="/examples/actions/confirmation.php" method="post">      
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter Email ID\Phone number" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Password" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <span>You agree to Flipkart's Terms of Use and Privacy Policy.</span>
+                                    </div>
+                                    <div class="form-group">
+                                        
+                                        <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                    
+                                </div>
+
+
+
+                                    <div class="form-group"></div>
+
+                                    <div class="form-group">
+                                       <h5 class="text-center">OR</h5>
+                                    </div>
+                                    
+                 
+                                    <div class="form-group">
+                                        <div class="logg">
+                                        <button type="submit" class="btn btn-primary btn-block">Request OTP</button>
+                                    </div> 
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <h5>New to Flipkart? <a href="#">Create a Account</a></h5>
+                                    </div>    
+                                </form> 
+                            </div> 
+                        </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>    
+            
+                 
             <div class="col-sm-1 col-2 col-xs-2 col-md-1 col-lg-1 more-nav">        <!------More------>
                 <div class="more"><span>More</span><i class="arrow down"></i></div>
                 <ul class="more-menu">

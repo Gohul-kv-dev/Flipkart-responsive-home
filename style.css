@@ -405,10 +405,60 @@ body {
   }
 
 
+
   .location{
       align-content: stretch;
   }
   
   .copyright p{color: white;} 
 
+  
+  .login-form {
+    width: auto;
+  	font-size: 15px;
+      position: relative;
+      text-align: right;
+}
 
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+.modal-body
+{
+    display: flex;
+    border: transparent;
+    margin: 0%;
+}
+.form-group span
+{
+    font-size: 70%;
+    display: flex;
+
+}
+.form-group h5{
+    align-items: center;
+}
+
+.form-group
+{
+    padding: 3%;
+}
+.form-group button{
+    background-color: orange;
+}
+
+.logg button
+{
+    background-color: white;
+    color: black;
+}
+ .modal-content{
+    margin: 0px;
+    padding: 0px;
+      border: 0px;
+ }
