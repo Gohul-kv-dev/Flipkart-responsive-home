@@ -166,6 +166,7 @@ body {
 }
 .logo-nav img {
     width: 100%;
+    max-width: fit-content;
 }
 
 .nav2 {
@@ -216,6 +217,7 @@ body {
 
 .fashion-menu li:hover {
   transform: scale(1.3);
+  color:blue;
 }
 .fashion {
     display: flex;
